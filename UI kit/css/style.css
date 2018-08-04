@@ -1,0 +1,340 @@
+
+/* Table of Content
+==================================================
+1.  Button
+================================================*/
+
+/* ==========================================================================
+                               { Global Styles }
+   ========================================================================== */
+
+body {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  font-family: 'open-sans', sans-serif;
+  font-weight: 600;
+}
+
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.w100 {
+  width: 100%;
+  display: inline-block;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.m0 {
+  margin: 0;
+}
+
+p {
+  font-weight: normal;
+}
+
+.bg-trans {
+  background: transparent;
+}
+
+.round {
+  border-radius: 100px;
+}
+/* Background Color*/
+.bg {
+  background: #FAFBFC;
+}
+
+.bg-black {
+  background: #24292E;
+}
+
+.bg-danger {
+  background: #F16F51;
+}
+
+.bg-sucess {
+  background: #78E080;
+}
+
+.bg-skyblue {
+  background: #52D0E9;
+}
+
+.bg-blue {
+  background: #7F8CE9;
+}
+
+.bg-purple {
+  background: #A088C3;
+}
+
+.bg-yellow {
+  background: #F7CD4A;
+}
+
+.bg-black-blue {
+  background: #34536F;
+}
+
+/* Text Color */
+.text-white {
+  color: #ffffff;
+}
+
+.text-black {
+  color: #24292E;
+}
+
+.text-danger {
+  color: #F16F51;
+}
+
+.text-sucess {
+  color: #78E080;
+}
+
+.text-skyblue {
+  color: #52D0E9;
+}
+
+.text-blue {
+  color: #7F8CE9;
+}
+
+.text-purple {
+  color: #A088C3;
+}
+
+.text-yellow {
+  color: #F7CD4A;
+}
+
+.text-black-blue {
+  color: #34536F;
+}
+
+/* Border Color */
+.border-white {
+  border: 1px solid #ffffff;
+}
+
+.border-black {
+  border: 1px solid #24292E;
+}
+
+.border-danger {
+  border: 1px solid #F16F51;
+}
+
+.border-sucess {
+  border: 1px solid #78E080;
+}
+
+.border-skyblue {
+  border: 1px solid #52D0E9;
+}
+
+.border-blue {
+  border: 1px solid #7F8CE9;
+}
+
+.border-purple {
+  border: 1px solid #A088C3;
+}
+
+.border-yellow {
+  border: 1px solid #F7CD4A;
+}
+
+.border-black-blue {
+  border: 1px solid #34536F;
+}
+
+.btn-circle {
+  height: 44px;
+  width: 44px;
+  padding: 0 !important;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* ==============================
+           Main button
+================================ */
+
+.btn-outline-black {
+  color: #24292E;
+  background-color: transparent;
+  background-image: none;
+  border-color: #24292E;
+}
+
+.btn-outline-sucess {
+  color: #78E080;
+  background-color: transparent;
+  background-image: none;
+  border-color: #78E080;
+}
+
+.btn-outline-skyblue {
+  color: #52D0E9;
+  background-color: transparent;
+  background-image: none;
+  border-color: #52D0E9;
+}
+
+.btn-outline-blue {
+  color: #7F8CE9;
+  background-color: transparent;
+  background-image: none;
+  border-color: #7F8CE9;
+}
+
+.btn-outline-yellow {
+  color: #F7CD4A;
+  background-color: transparent;
+  background-image: none;
+  border-color: #F7CD4A;
+}
+
+.btn-outline-purple {
+  color: #A088C3;
+  background-color: transparent;
+  background-image: none;
+  border-color: #A088C3;
+}
+
+.btn-outline-danger {
+  color: #DC3545;
+  background-color: transparent;
+  background-image: none;
+  border-color: #DC3545;
+}
+
+.btn-outline-black-blue {
+  color: #34536F;
+  background-color: transparent;
+  background-image: none;
+  border-color: #34536F;
+}
+
+.btn-black {
+  background-color: #24292E;
+  color: #ffffff;
+}
+
+.btn-sucess {
+  color: #ffffff;
+  background-color: #78E080;
+}
+
+.btn-skyblue {
+  color: #ffffff;
+  background-color: #52D0E9;
+
+}
+
+.btn-blue {
+  color: #ffffff;
+  background-color: #7F8CE9;
+}
+
+.btn-yellow {
+  color: #ffffff;
+  background-color: #F7CD4A;
+}
+
+.btn-purple {
+  color: #ffffff;
+  background-color: #A088C3;
+}
+
+.btn-danger {
+  color: #ffffff;
+  background-color: #DC3545;
+}
+
+.btn-black-blue {
+  color: #ffffff;
+  background-color: #34536F;
+}
+
+.button-rounded {
+    border-radius: 40px;
+}
+
+.btn-square {
+    height: 44px;
+    padding: 0 !important;
+    text-align: center ;
+    width: 44px;
+}
+
+
+/*Sidebar*/
+.sidebar-content {
+  position: fixed;
+  width: 100px;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  height: calc(100% - 50px);
+  overflow: auto;
+  box-shadow: 0 0 1px rgba(0,0,0,0.10);
+}
+
+h2 {
+  color: #34536F;
+  padding: 10px;
+  background: #E7E7E7;
+  margin-top: 10px;
+  font-size: 24px;
+  /* text-transform: uppercase; */
+  font-weight: 600;
+}
+
+.button-area {
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 0 0 16px #ccc;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 34px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.ribbon {
+  background: #0084B4;
+  position: absolute;
+  left: -20px;
+  color: #ffffff;
+  transform: rotate(45deg);
+  top: -29px;
+  padding: 20px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.ribbon .fa {
+  position: relative;
+  top: -1px;
+  left: 10px;
+}
